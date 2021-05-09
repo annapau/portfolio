@@ -1,15 +1,17 @@
 body{font-family: 'Spartan', sans-serif;}
 h3{font-family: 'Spartan', sans-serif;}
 
-h1{
+.names{
   font-family: 'Spartan', san-serif, bold;
+  color: #E7D0FA;
 }
 .works{
   align-items: center;
+  background-color: #F3E6FE;
 }
 .hero-image {
-  background-image:url("../images/home.jpg");
-  height: 10%;
+  background-image:url("../images/homee.jpg");
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,3 +26,36 @@ h1{
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.pfp{
+  size:50%
+  display:inline-block;
+  position: relative;
+  right: 100px;
+}
+
+.red{
+  height: 50px;
+  width:50px;
+  display: inline-block;
+  position: relative;
+  left: 213px;
+  }
+
+.blue{
+  background-color:blue;
+  height: 100px;
+  width:100px;
+  display:inline-block;
+  position: relative;
+  right: 100px;
+  }
+
+.yellow{
+  background-color: yellow;
+  height: 50px;
+  width:50px;
+  display:inline-block;
+  position:relative;
+  right: 100px;
+  }
