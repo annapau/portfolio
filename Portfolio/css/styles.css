@@ -1,5 +1,6 @@
 body{font-family: 'Spartan', sans-serif;}
-h3{font-family: 'Spartan', sans-serif;}
+h3{font-family: 'Spartan', sans-serif;
+font-weight: 800}
 
 .names{
   font-family: 'Spartan', san-serif, bold;
@@ -11,7 +12,7 @@ h3{font-family: 'Spartan', sans-serif;}
 }
 .hero-image {
   background-image:url("../images/homee.jpg");
-  height: 50%;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,34 +29,15 @@ h3{font-family: 'Spartan', sans-serif;}
 }
 
 .pfp{
-  size:50%
+  width: 80%;
   display:inline-block;
   position: relative;
   right: 100px;
 }
 
-.red{
-  height: 50px;
-  width:50px;
-  display: inline-block;
-  position: relative;
-  left: 213px;
+  .about-container{
+    padding:90px 0px;
   }
-
-.blue{
-  background-color:blue;
-  height: 100px;
-  width:100px;
-  display:inline-block;
-  position: relative;
-  right: 100px;
-  }
-
-.yellow{
-  background-color: yellow;
-  height: 50px;
-  width:50px;
-  display:inline-block;
-  position:relative;
-  right: 100px;
-  }
+  .pb-5, .py-5 {
+    padding-bottom: 5rem!important;
+  padding-top: 5rem;}
