@@ -1,0 +1,52 @@
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+h3 {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 800
+}
+
+.names {
+  font-family: 'Spartan', san-serif, bold;
+  color: #E7D0FA;
+}
+
+.works {
+  align-items: center;
+  background-color: #F3E6FE;
+}
+
+.hero-image {
+  background-image: url("../images/homee.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.pfp {
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+.about-container {
+  padding: 90px 0px;
+}
+
+.pb-5, .py-5 {
+  padding-bottom: 5rem !important;
+  padding-top: 5rem;
+}
