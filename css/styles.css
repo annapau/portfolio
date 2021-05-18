@@ -2,19 +2,27 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
-h3 {
+h3, h1 {
   font-family: 'Spartan', sans-serif;
-  font-weight: 800
+  font-weight: 800;
 }
 
 .names {
   font-family: 'Spartan', san-serif, bold;
-  color: #E7D0FA;
+  color: #CC9DF9;
 }
 
 .works {
   align-items: center;
   background-color: #F3E6FE;
+  height: 1200px;
+  width: 1400px;
+}
+
+#works{
+  padding-top: 5rem;
+  text-align: center;
+  width: 1300px;
 }
 
 .hero-image {
@@ -49,4 +57,22 @@ h3 {
 .pb-5, .py-5 {
   padding-bottom: 5rem !important;
   padding-top: 5rem;
+}
+
+.contact{
+  text-align: right;
+}
+
+.footer{
+  background-color: #E7D0FA;
+  height: 200px;
+}
+.logo{
+  height: 40px;
+  width: 80px;
+}
+.redes{
+  height: 100px;
+  width: 100px;
+  text-align: center;
 }
