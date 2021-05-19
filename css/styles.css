@@ -65,7 +65,7 @@ h3, h1 {
 
 .footer{
   background-color: #B5B7BB;
-  height: 200px;
+  height: 150px;
 }
 .logo{
   height: 50px;
@@ -75,4 +75,8 @@ h3, h1 {
   height: 50px;
   width: 50px;
   text-align: center;
+}
+.links{
+  text-align: center;
+  padding-top: 4rem;
 }
